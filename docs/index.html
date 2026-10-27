@@ -30,7 +30,7 @@ a:hover{text-decoration:underline}
 <div class="container">
 
 <h1>模拟宗门 隐私政策</h1>
-<div class="meta">版本 v2.0.0 &nbsp;|&nbsp; 更新日期：2026年10月17日 &nbsp;|&nbsp; 生效日期：2026年10月17日</div>
+<div class="meta">版本 v2.0.1 &nbsp;|&nbsp; 更新日期：2026年10月27日 &nbsp;|&nbsp; 生效日期：2026年10月27日</div>
 
 <div class="box">
 欢迎使用模拟宗门！【静书工作室】（以下简称"我们"）系移动应用程序"模拟宗门"（以下简称"本游戏"）的运营者。我们按照《中华人民共和国个人信息保护法》等法律法规处理您的个人信息。请在使用本游戏前仔细阅读本政策，特别是加粗内容。您同意本政策即表示已理解并同意我们按本政策处理您的个人信息。<br><br>
@@ -55,13 +55,13 @@ a:hover{text-decoration:underline}
 <p>我们按业务场景收集信息，具体如下；未同意的可选授权对应的信息不会收集。</p>
 <table>
 <tr><th>业务场景</th><th>信息类型</th><th>目的</th><th>必要性</th></tr>
-<tr><td>TapTap 登录</td><td>TapTap OpenID、UnionID、昵称、头像、电话号码/邮箱（TapTap 账户注册信息）、AccessToken</td><td>账户识别、存档关联、安全通信</td><td>必需</td></tr>
-<tr><td>实名认证与防沉迷</td><td>姓名、身份证号、年龄信息（由 TapTap 合规 SDK 收集并提交国家实名系统）</td><td>履行防沉迷法定义务</td><td>必需（法定）</td></tr>
-<tr><td>云存档</td><td>序列化并压缩后的游戏存档、TapTap 账户标识、存档元数据</td><td>跨设备恢复进度</td><td>必需（使用云存档时）</td></tr>
-<tr><td>排行榜</td><td>TapTap 账户标识、宗门战斗力</td><td>玩家排行榜展示</td><td>必需（使用排行榜时）</td></tr>
-<tr><td>激励广告</td><td>设备标识符（Android ID、OAID、GAID、IMEI/Device ID、MAC）、网络信息、粗略位置、应用安装列表、广告交互数据</td><td>广告投放、反作弊与效果归因</td><td>使用广告功能时</td></tr>
-<tr><td>统计分析（可选）</td><td>设备信息、Android ID、OAID、IP、网络信息、应用使用统计</td><td>产品优化</td><td>可选，默认关闭</td></tr>
-<tr><td>崩溃诊断（可选）</td><td>崩溃堆栈、异常信息、设备品牌型号、Android 版本、Android ID、网络类型</td><td>定位修复崩溃</td><td>可选，默认关闭</td></tr>
+<tr><td>TapTap 登录</td><td>TapTap OpenID、UnionID、昵称、头像、电话号码/邮箱（TapTap 账户注册信息）、AccessToken、设备信息（设备型号、系统版本、Android ID、OAID、GAID）</td><td>账户识别、存档关联、安全通信、设备安全风控</td><td>必需</td></tr>
+<tr><td>实名认证与防沉迷</td><td>姓名、身份证号、年龄信息（由 TapTap 合规 SDK 收集并提交国家实名系统）、设备信息（设备型号、系统版本、Android ID）</td><td>履行防沉迷法定义务、账号安全风控</td><td>必需（法定）</td></tr>
+<tr><td>云存档</td><td>序列化并压缩后的游戏存档、TapTap 账户标识、存档元数据、设备信息（设备型号、系统版本、Android ID）</td><td>跨设备恢复进度</td><td>必需（使用云存档时）</td></tr>
+<tr><td>排行榜</td><td>TapTap 账户标识、昵称、宗门战斗力、设备信息（设备型号、系统版本、Android ID）</td><td>玩家排行榜展示</td><td>必需（使用排行榜时）</td></tr>
+<tr><td>激励广告</td><td>设备标识符（Android ID、OAID、GAID、IMEI/Device ID、MAC）、网络信息与 IP、粗略位置、应用安装列表、传感器信息、广告交互数据</td><td>广告投放、反作弊与效果归因</td><td>使用广告功能时</td></tr>
+<tr><td>统计分析（可选）</td><td>设备信息（IMEI、MAC、Android ID、OAID、IMSI）、IP、网络信息、应用版本与渠道、应用使用统计</td><td>产品优化</td><td>可选，默认关闭</td></tr>
+<tr><td>崩溃诊断（可选）</td><td>崩溃堆栈、异常信息、应用版本与包名、设备品牌型号、Android 版本、Android ID、是否 Root、网络类型</td><td>定位修复崩溃</td><td>可选，默认关闭</td></tr>
 <tr><td>自有崩溃日志</td><td>崩溃堆栈、应用版本、设备品牌型号、Android 版本（不含账号标识）</td><td>定位修复崩溃</td><td>必需（安全与稳定性）</td></tr>
 <tr><td>兑换码</td><td>兑换码、使用时间、设备标识与玩家标识的脱敏摘要</td><td>防刷、防暴力枚举</td><td>使用兑换码时</td></tr>
 <tr><td>本机安全与运行</td><td>Android ID、设备品牌/型号、APK 签名摘要（仅本机参与密钥派生；网络仅发送 SHA-256 摘要前 8 位）</td><td>本地加密、请求防伪造</td><td>必需</td></tr>
@@ -70,6 +70,7 @@ a:hover{text-decoration:underline}
 
 <h3>1.1 TapTap 账户与实名信息</h3>
 <p>本游戏全部功能需要登录后使用。实名认证由 TapTap 合规 SDK 完成并提交国家新闻出版署网络游戏防沉迷实名认证系统；我们不自行收集、存储或传输您的身份证号码，仅接收年龄/认证结果用于防沉迷。手动认证场景下电话号码由 TapTap 收集，我们不自行设计电话号码输入框。电话号码属于敏感个人信息，TapTap 会在其界面单独告知并征得同意。</p>
+<p>为保障账号与设备安全，TapTap SDK 在登录、实名认证、云存档与排行榜场景中会读取设备信息（设备型号、系统版本、Android ID、OAID、GAID）；其中设备标识（含 Android ID）用于账号安全风控、防作弊与设备兼容，不用于本政策未载明的目的。</p>
 
 <h3>1.2 网络状态与本地存储</h3>
 <p>我们检查网络连接状态用于判断网络是否可用。Android 9 及以下请求外部存储读写权限用于保存本地存档；Android 10 及以上使用分区存储，无需额外权限。完整权限清单见第二节。</p>
@@ -98,10 +99,10 @@ a:hover{text-decoration:underline}
 <p>本应用集成以下第三方 SDK。它们可能独立收集和处理信息；我们已要求其遵守法律法规，具体以其官方隐私政策为准。第三方角色：TapTap 为独立处理者（渠道账号/实名/云存档/排行榜服务提供方）；各广告网络为独立处理者；我们会与其约定数据安全要求。</p>
 <table>
 <tr><th>SDK / 第三方</th><th>服务类型</th><th>可能收集的信息</th><th>共享方式/链接</th></tr>
-<tr><td>TapTap SDK（tap-core / tap-login / tap-common / tap-compliance / tap-cloudsave / tap-leaderboard-androidx，v4.10.5，易玩（上海）网络科技有限公司）</td><td>登录、实名防沉迷、云存档、排行榜</td><td>设备信息（型号、系统版本、Android ID、OAID、GAID、CPU/内存）、网络信息、TapTap 账户标识、昵称头像、电话号码/邮箱、实名认证数据与年龄、存档数据、游戏成绩</td><td>SDK 直接收集；<a href="https://developer.taptap.cn/docs/sdk/start/agreement/">TapTap SDK 隐私政策</a></td></tr>
+<tr><td>TapTap SDK（tap-core / tap-login / tap-common / tap-compliance / tap-cloudsave / tap-leaderboard-androidx，v4.10.5，易玩（上海）网络科技有限公司）</td><td>登录、实名防沉迷、云存档、排行榜</td><td>设备信息（型号、系统版本、CPU/内存）、设备标识（Android ID、OAID、GAID；用于账号安全风控、防作弊与设备兼容）、网络信息、TapTap 账户标识、昵称头像、电话号码/邮箱、实名认证数据与年龄、存档数据、游戏成绩</td><td>SDK 直接收集；<a href="https://developer.taptap.cn/docs/sdk/start/agreement/">TapTap SDK 隐私政策</a></td></tr>
 <tr><td>MMKV（深圳市腾讯计算机系统有限公司）</td><td>本地键值存储</td><td>不收集、不传输用户数据</td><td><a href="https://github.com/Tencent/MMKV">开源地址</a></td></tr>
-<tr><td>TapADN 聚合广告 SDK（v5.1.2.3，上海艾得蒽数字科技有限公司；聚合 Dirichlet 自有广告 + 穿山甲 v7.6.1.2 + 优量汇 v4.690.1560 + 爱奇艺 iadsdk 2.3.102.110 + 百青藤 mobads 9.45.0）</td><td>激励视频广告</td><td>设备信息（型号、系统、Android ID、OAID、GAID、IMEI/Device ID、MAC）、网络信息与 IP、粗略位置、应用安装列表、传感器、广告交互数据</td><td>SDK 直接收集；<a href="https://ssp.dirichlet.cn/docs/agreement/">Dirichlet</a> / <a href="https://www.pangle.cn/privacy/partner">穿山甲</a> / <a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983">优量汇</a> / <a href="https://privacy.iqiyi.com/">爱奇艺</a> / <a href="https://union.baidu.com/bqt/#/legal/policies">百青藤</a></td></tr>
-<tr><td>友盟统计 SDK（U-App v9.4.7，北京友盟共赢网络科技有限公司）</td><td>统计分析（可选）</td><td>设备信息（IMEI、MAC、Android ID、OAID、IP、IMSI 等）、网络信息、应用使用统计</td><td>SDK 直接收集；<a href="https://www.umeng.com/page/policy">友盟隐私政策</a></td></tr>
+<tr><td>TapADN 聚合广告 SDK（v5.1.2.3，上海艾得蒽数字科技有限公司；聚合 Dirichlet 自有广告 + 穿山甲 v7.6.1.2 + 优量汇 v4.690.1560 + 爱奇艺 iadsdk 2.3.102.110 + 百青藤 mobads 9.45.0）</td><td>激励视频广告</td><td>设备信息（型号、系统、Android ID、OAID、GAID、IMEI/Device ID、MAC）、网络信息与 IP、粗略位置、应用安装列表、传感器、广告交互数据、可选设备序列号与崩溃性能数据（穿山甲）</td><td>SDK 直接收集；<a href="https://ssp.dirichlet.cn/docs/agreement/">Dirichlet</a> / <a href="https://www.pangle.cn/privacy/partner">穿山甲</a> / <a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983">优量汇</a> / <a href="https://privacy.iqiyi.com/">爱奇艺</a> / <a href="https://union.baidu.com/bqt/#/legal/policies">百青藤</a></td></tr>
+<tr><td>友盟统计 SDK（U-App v9.4.7，北京友盟共赢网络科技有限公司）</td><td>统计分析（可选）</td><td>设备信息（IMEI、MAC、Android ID、OAID、IP、IMSI 等）、网络信息、应用版本与渠道、应用使用统计</td><td>SDK 直接收集；<a href="https://www.umeng.com/page/policy">友盟隐私政策</a></td></tr>
 <tr><td>腾讯 Bugly 崩溃收集 SDK（v4.0.0，深圳市腾讯计算机系统有限公司）</td><td>崩溃诊断（可选）</td><td>崩溃堆栈、异常信息、应用版本/包名、设备品牌型号、Android 版本、Android ID、是否 Root、网络类型</td><td>SDK 直接收集；<a href="https://privacy.qq.com/document/preview/fc748b3d96224fdb825ea79e132c1a56">Bugly 隐私政策</a></td></tr>
 </table>
 <p><strong>个性化广告开关：</strong>“设置 → 其他设置 → 个性化广告”可关闭；关闭后穿山甲/优量汇的个性化广告能力一并关闭，仍会展示非个性化广告。GAID 可在设备系统设置 → Google → 广告中重置或停用。我们不会向任何第三方出售您的个人信息。</p>
@@ -178,7 +179,7 @@ a:hover{text-decoration:underline}
 
 <h2 id="s11">十一、隐私政策更新与版本历史</h2>
 <p>我们可能更新本政策。更新后将在应用内重新展示，您需再次同意方可继续使用；不同意可停止使用。重大变更包括处理目的/方式/类型变化、共享对象变化、权利行使方式变化、联系方式与投诉渠道变化等。</p>
-<p><strong>版本历史：</strong>v2.0.0（2026-10-17）——新增权限清单、第三方共享清单、儿童个人信息保护规则、用户协议、账号注销与数据删除、撤回全部同意、安全事件处置、可选授权（统计/崩溃/个性化广告）；更正云存档安全措施表述（压缩上传）；明确个人信息保护负责人；线上部署迁移至公开镜像仓 hsmy7/mnzm-policy（主仓私有 + Free 计划无法使用主仓 Pages，旧地址 404）。v1.0.0（2026-10-02）——首次发布。</p>
+<p><strong>版本历史：</strong>v2.0.1（2026-10-27）——按应用市场第三方 SDK 检测要求，在 TapTap 登录、实名认证、云存档、排行榜四个场景及第三方 SDK 清单、附录中明确披露设备信息（含 Android ID）及其用途（账号安全风控、防作弊与设备兼容）；同步补齐广告、统计、崩溃诊断 SDK 的采集字段（传感器、设备序列号、应用版本、是否 Root 等）；首次同意弹窗明示 TapTap 与广告 SDK 的收集范围。v2.0.0（2026-10-17）——新增权限清单、第三方共享清单、儿童个人信息保护规则、用户协议、账号注销与数据删除、撤回全部同意、安全事件处置、可选授权（统计/崩溃/个性化广告）；更正云存档安全措施表述（压缩上传）；明确个人信息保护负责人；线上部署迁移至公开镜像仓 hsmy7/mnzm-policy（主仓私有 + Free 计划无法使用主仓 Pages，旧地址 404）。v1.0.0（2026-10-02）——首次发布。</p>
 
 <h2 id="s12">十二、联系我们</h2>
 <div class="contact">
@@ -191,23 +192,23 @@ a:hover{text-decoration:underline}
 <h2 id="appendix">附录 A：个人信息收集清单</h2>
 <table>
 <tr><th>场景</th><th>信息项</th><th>目的</th><th>是否必需</th></tr>
-<tr><td>登录</td><td>OpenID、UnionID、昵称、头像、电话/邮箱、AccessToken</td><td>账户识别、存档关联、安全通信</td><td>是</td></tr>
-<tr><td>实名/防沉迷</td><td>姓名、身份证号、年龄（TapTap 处理）</td><td>法定义务</td><td>是（法定）</td></tr>
-<tr><td>云存档</td><td>存档数据、账号标识、存档元数据</td><td>跨设备恢复</td><td>使用云存档时必需</td></tr>
-<tr><td>排行榜</td><td>账号标识、战斗力</td><td>排行榜展示</td><td>使用排行榜时必需</td></tr>
-<tr><td>广告</td><td>设备标识符、网络、粗略位置、安装列表、广告交互</td><td>广告投放与归因</td><td>使用广告功能时</td></tr>
-<tr><td>统计（可选）</td><td>设备信息、使用统计</td><td>产品优化</td><td>否，默认关闭</td></tr>
-<tr><td>崩溃诊断（可选）</td><td>崩溃堆栈、设备信息、Android ID</td><td>修复崩溃</td><td>否，默认关闭</td></tr>
+<tr><td>登录</td><td>OpenID、UnionID、昵称、头像、电话/邮箱、AccessToken、设备信息（含 Android ID）</td><td>账户识别、存档关联、安全通信、设备安全风控</td><td>是</td></tr>
+<tr><td>实名/防沉迷</td><td>姓名、身份证号、年龄（TapTap 处理）、设备信息（含 Android ID）</td><td>法定义务、账号安全风控</td><td>是（法定）</td></tr>
+<tr><td>云存档</td><td>存档数据、账号标识、存档元数据、设备信息（含 Android ID）</td><td>跨设备恢复</td><td>使用云存档时必需</td></tr>
+<tr><td>排行榜</td><td>账号标识、昵称、战斗力、设备信息（含 Android ID）</td><td>排行榜展示</td><td>使用排行榜时必需</td></tr>
+<tr><td>广告</td><td>设备标识符（含 Android ID）、网络、粗略位置、安装列表、传感器、广告交互</td><td>广告投放与归因</td><td>使用广告功能时</td></tr>
+<tr><td>统计（可选）</td><td>设备信息（含 Android ID）、使用统计</td><td>产品优化</td><td>否，默认关闭</td></tr>
+<tr><td>崩溃诊断（可选）</td><td>崩溃堆栈、设备信息（含 Android ID、是否 Root）</td><td>修复崩溃</td><td>否，默认关闭</td></tr>
 <tr><td>兑换码</td><td>兑换码、时间、脱敏标识</td><td>防刷</td><td>使用兑换码时</td></tr>
 </table>
 
 <h2>附录 B：第三方共享清单</h2>
 <table>
 <tr><th>接收方</th><th>产品/服务</th><th>涉及信息</th><th>场景</th><th>共享方式</th><th>链接</th></tr>
-<tr><td>易玩（上海）网络科技有限公司</td><td>TapTap SDK</td><td>账号标识、设备信息、实名信息、存档、成绩</td><td>登录/实名/云存档/排行榜</td><td>SDK 直接收集</td><td><a href="https://developer.taptap.cn/docs/sdk/start/agreement/">政策</a></td></tr>
-<tr><td>上海艾得蒽数字科技有限公司及聚合广告网络</td><td>TapADN/穿山甲/优量汇/爱奇艺/百青藤</td><td>设备标识符、网络、粗略位置、安装列表、广告交互</td><td>激励视频广告</td><td>SDK 直接收集</td><td><a href="https://ssp.dirichlet.cn/docs/agreement/">Dirichlet</a></td></tr>
-<tr><td>北京友盟共赢网络科技有限公司</td><td>友盟统计 SDK</td><td>设备信息、使用统计</td><td>统计分析（可选）</td><td>SDK 直接收集</td><td><a href="https://www.umeng.com/page/policy">政策</a></td></tr>
-<tr><td>深圳市腾讯计算机系统有限公司</td><td>Bugly SDK</td><td>崩溃堆栈、设备信息、Android ID</td><td>崩溃诊断（可选）</td><td>SDK 直接收集</td><td><a href="https://privacy.qq.com/document/preview/fc748b3d96224fdb825ea79e132c1a56">政策</a></td></tr>
+<tr><td>易玩（上海）网络科技有限公司</td><td>TapTap SDK</td><td>账号标识、设备信息（含 Android ID）、实名信息、存档、成绩</td><td>登录/实名/云存档/排行榜</td><td>SDK 直接收集</td><td><a href="https://developer.taptap.cn/docs/sdk/start/agreement/">政策</a></td></tr>
+<tr><td>上海艾得蒽数字科技有限公司及聚合广告网络</td><td>TapADN/穿山甲/优量汇/爱奇艺/百青藤</td><td>设备标识符（含 Android ID）、网络、粗略位置、安装列表、传感器、广告交互</td><td>激励视频广告</td><td>SDK 直接收集</td><td><a href="https://ssp.dirichlet.cn/docs/agreement/">Dirichlet</a></td></tr>
+<tr><td>北京友盟共赢网络科技有限公司</td><td>友盟统计 SDK</td><td>设备信息（含 Android ID）、使用统计</td><td>统计分析（可选）</td><td>SDK 直接收集</td><td><a href="https://www.umeng.com/page/policy">政策</a></td></tr>
+<tr><td>深圳市腾讯计算机系统有限公司</td><td>Bugly SDK</td><td>崩溃堆栈、设备信息（含 Android ID、是否 Root）</td><td>崩溃诊断（可选）</td><td>SDK 直接收集</td><td><a href="https://privacy.qq.com/document/preview/fc748b3d96224fdb825ea79e132c1a56">政策</a></td></tr>
 </table>
 
 <h2>附录 C：权限清单</h2>
